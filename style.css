@@ -55,3 +55,75 @@ form {
  max-width: 672px;
  position: relative;
 }
+#fkbx-text {
+  color: #bbb;
+  bottom: 0;
+  font-size: 16px;
+  left: 9px;
+  margin-top: 1px;
+  overflow: hidden;
+  position: absolute;
+  right: 9px;
+  text-align: initial;
+  text-overflow: ellipsis;
+  top: 0;
+  white-space: nowrap;
+}
+#fkbx>input {
+  background: transparent;
+  border: none;
+  bottom: 0;
+  box-sizing: border-box;
+  left: 0;
+  margin: 0;
+  outline: none;
+  padding: 0 8px;
+  position: absolute;
+  top: 2px;
+  width: 100%;
+}
+input {
+  -webkit-appearance: textfield;
+  -webkit-rtl-ordering: logical;
+  user-select: text;
+  cursor: auto;
+}
+input, textarea, select, button, meter, progress {
+  -webkit-writing-mode: horizontal-tb;
+}
+#fkbx_crt {
+  background: #333;
+  bottom: 5px;
+  position: absolute;
+  left: 9px;
+  right: auto;
+  top: 5px;
+  visibility: hidden;
+  width: 1px;
+}
+element.style {
+  display: block;
+}
+#fkbx_spch, #fkbx-hspch {
+  cursor: pointer;
+  height: 21px;
+  padding: 15px 6px 0;
+  width: 17px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQ…2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat center;
+  background-size: 24px 24px;
+  position: absolute;
+  right: 0;
+}
+#fkbx-hspch {
+  display: none;
+}
+#fkbx-hht {
+  -webkit-transition: opacity 200ms;
+  color: #777;
+  font-size: 13px;
+  line-height: normal;
+  opacity: 0;
+  padding-top: 10px;
+  position: absolute;
+  right: 29px;
+}
